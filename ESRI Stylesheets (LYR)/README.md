@@ -27,17 +27,15 @@ We recommend viewing the data with OS OpenMap Local in the backdrop style or the
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/blob/main/ESRI%20stylesheets%20(LYR)/images/BuiltUpandNonBuiltUpExtents.png "Screenshot of the Built Up and Non Built Up Extents layers over the OS Maps API in light style")
+![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/blob/main/ESRI%20stylesheets%20(LYR)/images/BuiltUpandNonBuiltUpExtents.png "Screenshot of the Built Up and Non Built Up Extents layers over the OS Maps API in light style")
 
 
 ## Additional information
 
 Scale limits can be turned off from the General tab of Layer Properties.
-[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](https://github.com/OrdnanceSurvey?utf8=%E2%9C%93&q=stylesheet&type=&language=)
+[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 [More information about OS Open Built Up Areas](http://www.ordnancesurvey.co.uk/business-and-government/products/os-open-built-up-areas.html)
-
-[More information about cartographic design at Ordnance Survey](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 ## Licence
 
