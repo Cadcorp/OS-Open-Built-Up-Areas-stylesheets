@@ -27,7 +27,7 @@ We recommend viewing the data with OS OpenMap Local in the backdrop style or the
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/main/ESRI%20Stylesheets%20(LYR)/images/BuiltUpandNonBuiltUpExtents.png "Screenshot of the Built Up and Non Built Up Extents layers over the OS Maps API in light style")
+  ![Screenshot](h![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/main/ESRI%20stylesheets%20(LYR)/images/BuiltUpandNonBuiltUpExtents.png "Screenshot of the Built Up and Non Built Up Extents layers over the OS Maps API in light style")
 
 
 ## Additional information
