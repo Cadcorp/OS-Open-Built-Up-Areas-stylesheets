@@ -1,4 +1,4 @@
-# OS-Open-Built-Areas-stylesheets
+# OS Open Built Areas stylesheets
 
 This repository contains stylesheets for OS Open Built Up Areas in **geopackage format**.
 
