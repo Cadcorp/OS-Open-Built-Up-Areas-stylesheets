@@ -1,5 +1,5 @@
 # OS-Open-Built-Areas-stylesheets
 
-This repository contains stylesheets for OS Open Zoomstack
+This repository contains stylesheets for OS Open Built Up Areas
 
-Select the directory that matches the **format of your data** or choose **Colour Values**
+Select the directory that matches the **format of your data**
