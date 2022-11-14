@@ -33,7 +33,7 @@ Your map should now look similar to this:
 
 Scale limits can be turned off from the General tab of Layer Properties.
 
-[More information about data styling and visualisation, take a look at our GeoDataVis toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 [More information about OS Open Built Up Areas](http://www.ordnancesurvey.co.uk/business-and-government/products/os-open-built-up-areas.html)
 
