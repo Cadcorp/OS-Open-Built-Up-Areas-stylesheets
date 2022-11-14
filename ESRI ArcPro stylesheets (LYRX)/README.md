@@ -27,7 +27,7 @@ We recommend viewing the data with OS OpenMap Local in the backdrop style or the
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/raw/master/Geopackage%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/BuiltUpAreas.JPG "Screenshot of the Built Up Areas layer over the OS Maps API in light style")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/raw/master/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/BuiltUpAreas.JPG "Screenshot of the Built Up Areas layer over the OS Maps API in light style")
 
 
 ## Additional information
