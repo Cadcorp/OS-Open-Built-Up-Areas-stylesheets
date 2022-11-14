@@ -35,7 +35,7 @@ We strive to make our QML files compatible with the latest long-term release of 
 
 ## Additional information
 
-[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)]
+[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
 
 [More information about OS Open Built Up Areas](http://www.ordnancesurvey.co.uk/business-and-government/products/os-open-built-up-areas.html)
 
