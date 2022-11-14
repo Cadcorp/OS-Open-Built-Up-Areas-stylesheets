@@ -33,7 +33,6 @@ Your map should now look similar to this:
 ## Additional information
 
 Scale limits can be turned off from the General tab of Layer Properties.
-
 [More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](https://github.com/OrdnanceSurvey?utf8=%E2%9C%93&q=stylesheet&type=&language=)
 
 [More information about OS Open Built Up Areas](http://www.ordnancesurvey.co.uk/business-and-government/products/os-open-built-up-areas.html)
