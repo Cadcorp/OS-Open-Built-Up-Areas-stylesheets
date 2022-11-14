@@ -1,6 +1,6 @@
 # OS Open Built Up Areas
 
-These are lyrx files for OS Open Built Up Areas in **Geopackage format** for use in **ESRI ArcPro**.
+These are **lyrx** files for OS Open Built Up Areas in **Geopackage format** for use in **ESRI ArcPro**.
 
 *They have been designed to work with the data as it is supplied.*
 
