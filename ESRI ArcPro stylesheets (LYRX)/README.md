@@ -6,7 +6,7 @@ These are lyrx files for OS Open Built Up Areas in **Geopackage format** for use
 
 ## Quick start guide
 
-**1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/main.zip) the contents of this repository
+**1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets.zip) the contents of this repository
 
 **2.**  In ArcPro, right-click on ‘Map’ towards the top of the Contents panel, select Properties… > then under Coordinate System > choose British National Grid (Projected Coordinate SYstem, National Grids, Europe). You may need to reposition to the data extent
 
