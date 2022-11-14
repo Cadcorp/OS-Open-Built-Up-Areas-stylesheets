@@ -25,7 +25,7 @@ We recommend viewing the data with OS OpenMap Local in Backdrop style or the lig
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/raw/master/QGIS%20stylesheets%20(QML)/images/NonBuiltUpExtents.png "Screenshot of the Non Built Up Extents Layer of OS Open Built Up Areas over the OS Maps API in light style")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/main/QGIS%20stylesheets%20(QML)/images/NonBuiltUpExtents.png "Screenshot of the Non Built Up Extents Layer of OS Open Built Up Areas dataset over the OS Maps API in light style")
 
 
 
