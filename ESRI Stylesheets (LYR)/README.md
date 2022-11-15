@@ -1,6 +1,6 @@
 # OS Open Built Up Areas
 
-These are LYR files for OS Open Built Up Areas in **Geopackage format** for use in **ESRI ArcMap**.
+These are **LYR** files for OS Open Built Up Areas in **Geopackage format** for use in **ESRI ArcMap**.
 
 *They have been designed to work with the data as it is supplied.*
 
@@ -12,13 +12,13 @@ These are LYR files for OS Open Built Up Areas in **Geopackage format** for use 
 
 **3.**  In the labeling dropdown, make sure 'Use Maplex Label Engine' is on.
 
-**4.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format (geopackage) and stylesheet format (ESRI ArcMap stylesheets LYR)
+**4.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format (geopackage) and stylesheet format (ESRI ArcMap stylesheets LYR).
 
-**5.**  Select the lyr file and click ‘Add’
+**5.**  Select the lyr file and click ‘Add’.
 
 **6.**  Double-click on a layer to access the Layer ‘Properties’ window > select the ‘Source’> click on ‘Set Data Source…’ > navigate to your OS Open Built Up Areas > select relevant dataset > select ‘Add’.
 
-Repeat step 6 for all if they don't link automatically.
+Repeat step 6 for all other layers.
 
 We recommend viewing of the data between **1:2,500** and **1:250,000** for maximum legibility.
 
