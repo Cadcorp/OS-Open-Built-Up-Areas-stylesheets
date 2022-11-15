@@ -8,7 +8,7 @@ These are **lyrx** files for OS Open Built Up Areas in **Geopackage format** for
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  In ArcPro, right-click on ‘Map’ towards the top of the Contents panel, select Properties… > then under Coordinate System > choose British National Grid (Projected Coordinate SYstem, National Grids, Europe). You may need to reposition to the data extent
+**2.**  In ArcPro, right-click on ‘Map’ towards the top of the Contents panel, select Properties… > then under Coordinate System > choose British National Grid (Projected Coordinate System, National Grids, Europe). You may need to reposition to the data extent
 
 **3.**  In the top toolbar of ArcPro, under Labeling, click 'More' and ensure the 'Use Maplex Label Engine' is ticked on.
 
@@ -18,7 +18,7 @@ These are **lyrx** files for OS Open Built Up Areas in **Geopackage format** for
 
 **6.**  In the Contents panel in ArcPro, double-click on a layer to access the Layer Properties window > select the ‘Source’> click on ‘Set Data Source…’ > navigate to your OS Open Built Up Areas geopackage data > select relevant dataset > select ‘Add’. For example, for the OS Open Built Up Areas layer, you'd select main.OS_Open_Built_Up_Areas layer.
 
-Repeat step 6 for all other layers if they don't link automatically.
+Repeat step 6 for all other layers.
 
 We recommend viewing of the data between **1:2,500** and **1:250,000** for maximum legibility.
 
