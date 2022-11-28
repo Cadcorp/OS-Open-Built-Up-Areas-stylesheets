@@ -23,7 +23,7 @@ We recommend viewing the data with OS OpenMap Local or OS VectorMap District in 
 
 Your map should look similar to this: 
 
-![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/blob/ae2cbee5efc46681cca3fb24179f0886dc79bcd1/GeoServer%20stylesheets%20(SLD)/images/BuiltUpAreas.JPG "Screenshot of OS Open Built Up Areas")
+![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Built-Up-Areas-stylesheets/blob/e31243006348224cb8f88466700f3b09124adc9e/GeoServer%20stylesheets%20(SLD)/images/BuiltUpAreasGeoserver.PNG "Screenshot of OS Open Built Up Areas")
 
 
 ## Additional information
