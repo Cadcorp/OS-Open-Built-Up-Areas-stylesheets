@@ -30,7 +30,7 @@ Your map should look similar to this:
 
 [For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
-[More information about OS Open Built Up Areas](http://www.ordnancesurvey.co.uk/business-and-government/products/os-open-built-up-areas.html)
+[More information about OS Open Built Up Areas](http://ordnancesurvey.contensis.cloud/business-government/products/os-open-built-up-areas)
 
 ## Licence
 
