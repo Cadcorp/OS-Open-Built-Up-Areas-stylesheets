@@ -1,7 +1,7 @@
 {
   "type" : "CIMLayerDocument",
-  "version" : "2.9.0",
-  "build" : 32739,
+  "version" : "3.0.0",
+  "build" : 36056,
   "layers" : [
     "CIMPATH=map/built_up_areas.xml"
   ],
@@ -17,10 +17,12 @@
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "{40504AE4-AC95-4463-B737-3991182102AA}"
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/b41c490a1905485c9254589e6cfa216c.json"
       },
       "expanded" : true,
       "layerType" : "Operational",
+      "maxScale" : 1250,
+      "minScale" : 250000,
       "showLegends" : true,
       "visibility" : true,
       "displayCacheType" : "Permanent",
@@ -41,113 +43,13 @@
           {
             "type" : "CIMFieldDescription",
             "alias" : "fid",
-            "fieldName" : "fid",
+            "fieldName" : "OBJECTID",
             "numberFormat" : {
               "type" : "CIMNumericFormat",
               "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
+              "alignmentWidth" : 0,
               "roundingOption" : "esriRoundNumberOfDecimals",
               "roundingValue" : 0
-            },
-            "readOnly" : true,
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom",
-            "fieldName" : "geom",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "gsscode",
-            "fieldName" : "gsscode",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geometry_area_m",
-            "fieldName" : "geometry_area_m",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name1_text",
-            "fieldName" : "name1_text",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name1_language",
-            "fieldName" : "name1_language",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name2_text",
-            "fieldName" : "name2_text",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name2_language",
-            "fieldName" : "name2_language",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "areahectares",
-            "fieldName" : "areahectares",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom_Length",
-            "fieldName" : "geom_Length",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "readOnly" : true,
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom_Area",
-            "fieldName" : "geom_Area",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
             },
             "readOnly" : true,
             "visible" : true,
@@ -169,9 +71,9 @@
         },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\OpenBuiltUpAreas Geodatabase.gdb",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\Built Up Areas Geodatabase.gdb",
           "workspaceFactory" : "FileGDB",
-          "dataset" : "os_open_Built_Up_and_Non_Built_Up_Areas_20221018_v9_4",
+          "dataset" : "main_OS_Open_Built_Up_Areas",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -179,11 +81,11 @@
       },
       "featureTemplates" : [
         {
-          "type" : "CIMFeatureTemplate",
-          "name" : "Built Up and Non Built Up Area",
+          "type" : "CIMRowTemplate",
+          "name" : "OS Open Built Up Areas",
           "tags" : "Polygon",
-          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
-          "toolFilter" : [
+          "defaultToolGUID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
+          "excludedToolGUIDs" : [
             "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
             "a281e635-0f22-47d4-a438-e4d29b920e22",
             "d304243a-5c3a-4ccc-b98b-93684b15fd83"
@@ -531,10 +433,12 @@
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "{40504AE4-AC95-4463-B737-3991182102AA}"
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/b41c490a1905485c9254589e6cfa216c.json"
       },
       "expanded" : true,
       "layerType" : "Operational",
+      "maxScale" : 1250,
+      "minScale" : 250000,
       "showLegends" : true,
       "visibility" : true,
       "displayCacheType" : "Permanent",
@@ -555,113 +459,13 @@
           {
             "type" : "CIMFieldDescription",
             "alias" : "fid",
-            "fieldName" : "fid",
+            "fieldName" : "OBJECTID",
             "numberFormat" : {
               "type" : "CIMNumericFormat",
               "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
+              "alignmentWidth" : 0,
               "roundingOption" : "esriRoundNumberOfDecimals",
               "roundingValue" : 0
-            },
-            "readOnly" : true,
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom",
-            "fieldName" : "geom",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "relatedtogsscode",
-            "fieldName" : "relatedtogsscode",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geometry_area_m",
-            "fieldName" : "geometry_area_m",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name1_text",
-            "fieldName" : "name1_text",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name1_language",
-            "fieldName" : "name1_language",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name2_text",
-            "fieldName" : "name2_text",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name2_language",
-            "fieldName" : "name2_language",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "areahectares",
-            "fieldName" : "areahectares",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom_Length",
-            "fieldName" : "geom_Length",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "readOnly" : true,
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom_Area",
-            "fieldName" : "geom_Area",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
             },
             "readOnly" : true,
             "visible" : true,
@@ -683,9 +487,9 @@
         },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\OpenBuiltUpAreas Geodatabase.gdb",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\Built Up Areas Geodatabase.gdb",
           "workspaceFactory" : "FileGDB",
-          "dataset" : "os_open_Non_Built_Up_Areas_20221018_v9_4",
+          "dataset" : "main_OS_Open_Built_Up_Extents",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -693,11 +497,11 @@
       },
       "featureTemplates" : [
         {
-          "type" : "CIMFeatureTemplate",
-          "name" : "Non Built Extent",
+          "type" : "CIMRowTemplate",
+          "name" : "OS Open Non Built Up Extents",
           "tags" : "Polygon",
-          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
-          "toolFilter" : [
+          "defaultToolGUID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
+          "excludedToolGUIDs" : [
             "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
             "a281e635-0f22-47d4-a438-e4d29b920e22",
             "d304243a-5c3a-4ccc-b98b-93684b15fd83"
@@ -862,7 +666,7 @@
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
           "maximumScale" : 4000,
-          "minimumScale" : 150001,
+          "minimumScale" : 150000,
           "name" : "Default",
           "priority" : 1,
           "standardLabelPlacementProperties" : {
@@ -1043,10 +847,12 @@
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "{40504AE4-AC95-4463-B737-3991182102AA}"
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/b41c490a1905485c9254589e6cfa216c.json"
       },
       "expanded" : true,
       "layerType" : "Operational",
+      "maxScale" : 1250,
+      "minScale" : 250000,
       "showLegends" : true,
       "visibility" : true,
       "displayCacheType" : "Permanent",
@@ -1067,113 +873,13 @@
           {
             "type" : "CIMFieldDescription",
             "alias" : "fid",
-            "fieldName" : "fid",
+            "fieldName" : "OBJECTID",
             "numberFormat" : {
               "type" : "CIMNumericFormat",
               "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
+              "alignmentWidth" : 0,
               "roundingOption" : "esriRoundNumberOfDecimals",
               "roundingValue" : 0
-            },
-            "readOnly" : true,
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom",
-            "fieldName" : "geom",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "relatedtogsscode",
-            "fieldName" : "relatedtogsscode",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geometry_area_m",
-            "fieldName" : "geometry_area_m",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name1_text",
-            "fieldName" : "name1_text",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name1_language",
-            "fieldName" : "name1_language",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name2_text",
-            "fieldName" : "name2_text",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "name2_language",
-            "fieldName" : "name2_language",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "areahectares",
-            "fieldName" : "areahectares",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom_Length",
-            "fieldName" : "geom_Length",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "readOnly" : true,
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "geom_Area",
-            "fieldName" : "geom_Area",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
             },
             "readOnly" : true,
             "visible" : true,
@@ -1195,9 +901,9 @@
         },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\OpenBuiltUpAreas Geodatabase.gdb",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\Built Up Areas Geodatabase.gdb",
           "workspaceFactory" : "FileGDB",
-          "dataset" : "os_open_Built_Up_Areas_20221018_v9_4",
+          "dataset" : "main_OS_Open_Non_Built_Up_Extents",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -1205,11 +911,11 @@
       },
       "featureTemplates" : [
         {
-          "type" : "CIMFeatureTemplate",
-          "name" : "Built Up Extent",
+          "type" : "CIMRowTemplate",
+          "name" : "OS Open Built Up Extents",
           "tags" : "Polygon",
-          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
-          "toolFilter" : [
+          "defaultToolGUID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
+          "excludedToolGUIDs" : [
             "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
             "a281e635-0f22-47d4-a438-e4d29b920e22",
             "d304243a-5c3a-4ccc-b98b-93684b15fd83"
@@ -1375,7 +1081,7 @@
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
           "maximumScale" : 4000,
-          "minimumScale" : 150001,
+          "minimumScale" : 150000,
           "name" : "Default",
           "priority" : 2,
           "standardLabelPlacementProperties" : {
@@ -1556,7 +1262,7 @@
       "useSourceMetadata" : true,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "{40504AE4-AC95-4463-B737-3991182102AA}"
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/b41c490a1905485c9254589e6cfa216c.json"
       },
       "expanded" : true,
       "layerType" : "Operational",
@@ -1599,13 +1305,32 @@
       "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20221021</CreaDate><CreaTime>13485900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>Built Up Areas</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
     }
   ],
-  "elevationSurfaces" : [
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
     {
-      "type" : "CIMMapElevationSurface",
-      "elevationMode" : "BaseGlobeSurface",
+      "type" : "CIMElevationSurfaceLayer",
       "name" : "Ground",
+      "uRI" : "CIMPATH=Map/b41c490a1905485c9254589e6cfa216c.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
       "verticalExaggeration" : 1,
-      "mapElevationID" : "{40504AE4-AC95-4463-B737-3991182102AA}",
       "color" : {
         "type" : "CIMRGBColor",
         "values" : [
@@ -1615,11 +1340,7 @@
           100
         ]
       },
-      "surfaceTINShadingMode" : "Smooth",
-      "visibility" : true,
-      "expanded" : true
+      "surfaceTINShadingMode" : "Smooth"
     }
-  ],
-  "rGBColorProfile" : "sRGB IEC61966-2.1",
-  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+  ]
 }
