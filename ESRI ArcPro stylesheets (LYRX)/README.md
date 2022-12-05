@@ -20,7 +20,7 @@ These are **lyrx** files for OS Open Built Up Areas in **Geopackage format** for
 
 Repeat step 6 for all other layers.
 
-We recommend viewing of the data between **1:2,500** and **1:250,000** for maximum legibility.
+We recommend viewing of the data between **1:1,250** and **1:250,000** for maximum legibility.
 
 We recommend viewing the data with OS OpenMap Local in the backdrop style or the light style of the OS Maps API.
 
