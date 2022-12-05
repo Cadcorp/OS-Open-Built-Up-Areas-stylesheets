@@ -6,14 +6,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <Name>OS Open Built Up Areas - Non-Built Up Extents</Name>
     <UserStyle>
       <Title>Product SLD - October 2022</Title>
-      <Abstract>OS Open Built Up Areas. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
+      <Abstract>OS Open Built Up Areas. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
 
 
       <FeatureTypeStyle>
 
         <Rule>
           <Name>Non-Built Up Extents</Name>
-          <MinScaleDenominator>2500</MinScaleDenominator>
+          <MinScaleDenominator>1250</MinScaleDenominator>
           <MaxScaleDenominator>250000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
