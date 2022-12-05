@@ -15,7 +15,7 @@ These are **SLD** files for OS Open Built Up Areas in **Geopackage format** for 
 **4.**  Publish the style with the data. If using the GUI then navigate to Layers > Add a new resource and choose the Built Up Areas Geopackage, click on publish, configure settings and then choose the relevant style before saving.
 
 
-We recommend viewing the data between **1:2,500** and **1:250,000**.
+We recommend viewing the data between **1:1,250** and **1:250,000**.
 
 We recommend viewing the data with OS OpenMap Local or OS VectorMap District in Backdrop style.
 
