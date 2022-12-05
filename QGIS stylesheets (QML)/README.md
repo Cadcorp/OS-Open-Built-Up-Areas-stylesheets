@@ -17,7 +17,7 @@ These are **QML** files for OS Open Built Up Areas in **Geopackage format** for 
 **5.**  Double-click on each layer in turn to access the ‘Layer Properties’ window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the matching QML file to the layer you are adding the style to > click 'Open' > click 'OK'
 
 
-We recommend viewing of the map between **1:2,500** and **1:250,000** for maximum legibility.
+We recommend viewing of the map between **1:1,250** and **1:250,000** for maximum legibility.
 
 We recommend viewing the data with OS OpenMap Local in Backdrop style or the light style of the OS Maps API.
 
