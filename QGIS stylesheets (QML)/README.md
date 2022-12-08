@@ -37,7 +37,7 @@ We strive to make our QML files compatible with the latest long-term release of 
 
 [For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
-[More information about OS Open Built Up Areas](http://ordnancesurvey.contensis.cloud/business-government/products/os-open-built-up-areas)
+[More information about OS Open Built Up Areas](https://www.ordnancesurvey.co.uk/business-government/products/os-open-built-up-areas)
 
 ## Licence
 
