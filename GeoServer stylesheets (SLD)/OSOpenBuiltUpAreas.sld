@@ -18,7 +18,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ffc61e</CssParameter>
-              <CssParameter name="opacity">0.5</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <LineSymbolizer>
@@ -88,7 +88,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Radius>20</Radius>
               <Fill>
                 <CssParameter name="fill">#FFFFFF</CssParameter>
-                <CssParameter name="opacity">0.75</CssParameter>
+                <CssParameter name="fill-opacity">0.75</CssParameter>
               </Fill>
             </Halo>
             <Fill>
